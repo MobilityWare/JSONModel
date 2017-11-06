@@ -19,12 +19,12 @@
 typedef void (^RequestResultBlock)(NSData *data, JSONModelError *error);
 
 #pragma mark - constants
-NSString* const kHTTPMethodGET = @"GET";
-NSString* const kHTTPMethodPOST = @"POST";
+static NSString* const kHTTPMethodGET = @"GET";
+static NSString* const kHTTPMethodPOST = @"POST";
 
-NSString* const kContentTypeAutomatic    = @"jsonmodel/automatic";
-NSString* const kContentTypeJSON         = @"application/json";
-NSString* const kContentTypeWWWEncoded   = @"application/x-www-form-urlencoded";
+static NSString* const kContentTypeAutomatic    = @"jsonmodel/automatic";
+static NSString* const kContentTypeJSON         = @"application/json";
+static NSString* const kContentTypeWWWEncoded   = @"application/x-www-form-urlencoded";
 
 #pragma mark - static variables
 

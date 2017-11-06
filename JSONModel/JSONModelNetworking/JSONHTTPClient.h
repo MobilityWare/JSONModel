@@ -19,19 +19,6 @@
 #pragma mark - definitions
 
 /**
- * HTTP Request methods
- */
-extern NSString* const kHTTPMethodGET;
-extern NSString* const kHTTPMethodPOST;
-
-/**
- * Content-type strings
- */
-extern NSString* const kContentTypeAutomatic;
-extern NSString* const kContentTypeJSON;
-extern NSString* const kContentTypeWWWEncoded;
-
-/**
  * A block type to handle incoming JSON object and an error. 
  * You pass it to methods which fetch JSON asynchronously. When the operation is finished
  * you receive back the fetched JSON (or nil) and an error (or nil)
